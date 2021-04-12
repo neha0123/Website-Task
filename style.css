@@ -45,7 +45,7 @@ font-size: 18px;
 }
 p {
     
-    font-family: cursive !important;
+    font-family: Verdana!important;
 }
 .service-box {
     background-color: white !important;
@@ -220,7 +220,7 @@ input.submitbutton.ripplelink {
 
 .thumb-content ::before {
     content: "\f190";
-    font-family: FontAwesome;
+   font-family: Verdana !important;
     font-style: normal;
     font-weight: normal;
     text-decoration: inherit;
@@ -228,3 +228,9 @@ input.submitbutton.ripplelink {
     color: ##ffffff;
 }
 
+@media (min-width: 576px){
+.navbar-expand-sm .navbar-nav .nav-link {
+    padding-right: .5rem;
+    padding-left: 0rem !important; 
+}
+}
